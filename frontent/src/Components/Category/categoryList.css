@@ -1,0 +1,11 @@
+.categroy-list-card{
+    background-color: whitesmoke;
+    /* cursor: pointer; */
+    transition: .3s;
+}
+
+.categroy-list-card:hover{
+    translate: 0 -2px;
+    box-shadow: 0px 0px 10px black !important;
+}
+
