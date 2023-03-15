@@ -23,7 +23,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors("allowAll");
+app.UseCors("allowSomeSites");
 
 app.UseAuthentication();
 app.UseAuthorization();

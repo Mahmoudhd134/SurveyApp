@@ -22,12 +22,12 @@ import AddSurveyOption from './Components/Survey/AddSurveyOption';
 import AddSurveyCategory from './Components/Survey/AddSurveyCategory';
 
 const App = () => {
-    const stayLogin = JSON.parse(localStorage.getItem('stayLogin') ?? 'false')
     const dispatch = useAppDispatch()
     const loc = useLocation()
     const navigator = useNavigate()
 
     useEffect(() => {
+        const stayLogin = JSON.parse(localStorage.getItem('stayLogin') ?? 'false')
         if (stayLogin) {
             (async () => {
                 const refresh = useRefreshToken()

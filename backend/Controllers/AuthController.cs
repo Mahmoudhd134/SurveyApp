@@ -23,6 +23,11 @@ public class AuthController : BaseController
         _expiry = expiry.Value;
     }
 
+    [Route("Status")]
+    [HttpGet]
+    public async Task<ActionResult> Status() =>
+        Ok(new { message = Username == null ? "You Are Not Logged In" : "Hallo: " + Username });
+
     [Route("Register")]
     [HttpPost]
     public async Task<ActionResult> Register([FromBody] RegisterUserDto registerUserDto) =>

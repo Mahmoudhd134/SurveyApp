@@ -12,7 +12,7 @@ export const SurveyApi = baseApi.injectEndpoints({
             providesTags: (result = [], error, args) => [
                 'survey',
                 ...result.map(({ id }) => ({ type: 'survey' as const, id }))
-            ]
+            ],
         }),
         getSurvey: builder.query<SurveyModel, number>({
             query: arg => 'survey/get/' + arg,

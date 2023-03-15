@@ -24,7 +24,7 @@ export const AddCategoryForm = () => {
             <form onSubmit={handleSubmit} >
                 <div className="w-100 row justify-content-center my-3">
                     <div className="col-12 col-sm-8 col-md-6 d-flex justify-content-center text-center text-danger">
-                        <p>{result.isError && useGetAppError(result.error).message}</p>
+                        <p>{result.isError && useGetAppError(result.error)?.message}</p>
                     </div>
                 </div>
 

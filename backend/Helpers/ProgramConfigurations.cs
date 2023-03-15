@@ -30,10 +30,10 @@ public static class ProgramConfigurations
         services.AddMediatR(opt => { opt.RegisterServicesFromAssemblies(typeof(Program).Assembly); });
 
         //add cors
-        services.AddCors(opt => opt.AddPolicy("allowAll", builder =>
+        services.AddCors(opt => opt.AddPolicy("allowSomeSites", builder =>
         {
             builder
-                .WithOrigins("http://localhost:5173")
+                .WithOrigins("http://localhost:5173","https://mahmoudhd134.github.io")
                 .AllowAnyHeader()
                 .AllowAnyMethod()
                 .AllowCredentials()

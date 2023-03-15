@@ -19,11 +19,11 @@ export const authApi = baseApi.injectEndpoints({
                 body: data
             }),
         }),
-        test: builder.query<any, void>({
-            query: () => '/auth/private',
+        getStatus: builder.query<{ message: string }, void>({
+            query: () => '/auth/status',
             keepUnusedDataFor: 0
         })
     })
 })
 
-export const { useLoginMutation, useSignupMutation, useTestQuery } = authApi
+export const { useLoginMutation, useSignupMutation, useGetStatusQuery } = authApi

@@ -1,7 +1,7 @@
-import { useTestQuery } from "../../Feutures/Auth/authApi";
+import { useGetStatusQuery } from "../../Feutures/Auth/authApi";
 
 const Profile = () => {
-    const result = useTestQuery()
+    const result = useGetStatusQuery()
 
     return (
         <section>

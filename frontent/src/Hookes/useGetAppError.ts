@@ -1,6 +1,6 @@
 import { SerializedError } from "@reduxjs/toolkit"
 import { FetchBaseQueryError } from "@reduxjs/toolkit/dist/query"
-import { AppError } from "../App/Api/baseApi"
+import AppError from "../Models/Global/AppError"
 
 const useGetAppError = (error: FetchBaseQueryError | SerializedError | undefined) => {
     if (error == undefined)

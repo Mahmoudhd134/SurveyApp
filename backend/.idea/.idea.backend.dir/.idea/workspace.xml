@@ -6,7 +6,18 @@
     <projectFile profileName="https">backend.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8a3f1e6-0977-49ac-99b1-a848f4e8741c" name="Changes" comment="" />
+    <list default="true" id="d8a3f1e6-0977-49ac-99b1-a848f4e8741c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.backend.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.backend.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/ProgramConfigurations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/ProgramConfigurations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatRServices/Handlers/AuthHandlers/GetTokenAndRefreshTokenHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MediatRServices/Handlers/AuthHandlers/GetTokenAndRefreshTokenHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontent/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontent/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontent/src/Components/Category/AddCategoryForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontent/src/Components/Category/AddCategoryForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontent/src/Components/Category/EditCategoryForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontent/src/Components/Category/EditCategoryForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontent/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontent/vite.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +108,8 @@
       <workItem from="1678403289725" duration="58000" />
       <workItem from="1678403417928" duration="3758000" />
       <workItem from="1678478039792" duration="8309000" />
+      <workItem from="1678671543922" duration="479000" />
+      <workItem from="1678852821697" duration="3393000" />
     </task>
     <servers />
   </component>
